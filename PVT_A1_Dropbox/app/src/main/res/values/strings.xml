@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PVT_A1_Dropbox</string>
+    <string name="text1">Greeting !</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Log out</string>
+    <string name="login">Log in</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="list_view">List View</string>
+    <string name="grid_view">Grid View</string>
+    <string name="welcome">Welcome back!</string>
+    <string name="greeting">Greeting from Dropbox</string>
+    <string name="options">Select an option</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_delete">Confirm to delete </string>
+    <string name="destination">Select destination folder</string>
+    <string name="newname">New name</string>
+</resources>

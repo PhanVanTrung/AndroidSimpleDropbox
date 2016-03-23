@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt1"
+            android:textSize="@dimen/large_button_1"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/text1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_btn"
+            android:text="@string/login"
+            android:textSize="@dimen/large_button_1"
+            android:layout_gravity="center_horizontal"/>
+
+        <ViewStub
+            android:id="@+id/listview_stub"
+            android:inflatedId="@+id/show_view"
+            android:layout="@layout/listview_frame"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <ViewStub
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridview_stub"
+            android:inflatedId="@+id/show_view"
+            android:layout="@layout/gridview_frame"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    </LinearLayout>
+
+</merge>
